@@ -143,7 +143,7 @@ const App = () => {
                 <div class="card-body d-flex flex-column">
                   <h5 class="card-title text-info">Business Website</h5>
                   <p class="card-text flex-grow-1">A Business website built using HTML, CSS, Bootstrap, and JavaScript.</p>
-                  <a href="https://sls-developers.netlify.app/" target="_blank" class="btn btn-outline-info mt-auto">View Project</a>
+                  <a href="https://sls-developers.netlify.app/" target="_blank" rel="noreferrer" class="btn btn-outline-info mt-auto">View Project</a>
                 </div>
               </div>
             </div>
@@ -155,7 +155,7 @@ const App = () => {
                 <div class="card-body d-flex flex-column">
                   <h5 class="card-title text-info">Calculator</h5>
                   <p class="card-text flex-grow-1">A Calculator built using HTML, CSS, Bootstrap, and JavaScript.</p>
-                  <a href="https://my-calculator1210.netlify.app/" target="_blank" class="btn btn-outline-info mt-auto">View Project</a>
+                  <a href="https://my-calculator1210.netlify.app/" target="_blank" rel="noreferrer" class="btn btn-outline-info mt-auto">View Project</a>
                 </div>
               </div>
             </div>
@@ -166,7 +166,7 @@ const App = () => {
                 <div class="card-body d-flex flex-column">
                   <h5 class="card-title text-info">Sip Calculator</h5>
                   <p class="card-text flex-grow-1">The Sip Calculator is built using HTML, CSS, Bootstrap, and JavaScript.</p>
-                  <a href="https://sip-calculator1210.netlify.app/" target="_blank" class="btn btn-outline-info mt-auto">View Project</a>
+                  <a href="https://sip-calculator1210.netlify.app/" target="_blank" rel="noreferrer" class="btn btn-outline-info mt-auto">View Project</a>
                 </div>
               </div>
             </div>
@@ -178,7 +178,7 @@ const App = () => {
                 <div class="card-body d-flex flex-column">
                   <h5 class="card-title text-info">TO-DO-LIST APP</h5>
                   <p class="card-text flex-grow-1">A responsive personal portfolio website built using HTML, CSS, Bootstrap, and JavaScript.</p>
-                  <a href="https://to-do-list1210.netlify.app/" target="_blank" class="btn btn-outline-info mt-auto">View Project</a>
+                  <a href="https://to-do-list1210.netlify.app/" target="_blank" rel="noreferrer" class="btn btn-outline-info mt-auto">View Project</a>
                 </div>
               </div>
             </div>
