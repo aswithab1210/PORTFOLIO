@@ -28,7 +28,7 @@ const TypingEffect = () => {
 
     const typingTimer = setTimeout(handleTyping, typingSpeed);
     return () => clearTimeout(typingTimer);
-  }, [charIndex, isDeleting, index] [textArray]);
+  }, [charIndex, isDeleting, index, textArray]);
 
   return <span className="typing-text text-info">{text}</span>;
 };
