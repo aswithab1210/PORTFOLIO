@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("https://i.pinimg.com/550x/40/89/56/408956557bb3f2261f0927cf37097a09.jpg") no-repeat center center/cover;
+    height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  
+  .navbar {
+    transition: background-color 0.3s ease-in-out;
+  }
+  .navbar-nav .nav-link {
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: cyan !important;
+}
+.navbar-nav .nav-link.active {
+  color: cyan !important;
+}
+
+.navbar-nav .nav-link.active::after {
+  width: 100%;
+}
+
+
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: cyan;
+    transition: width 0.3s;
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 100%;
+}
+
+.text-color-cyan{
+  color: cyan;
+}
