@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 // Move this outside the component to make it a static reference
 const textArray = ["Web Developer..!"];
 
