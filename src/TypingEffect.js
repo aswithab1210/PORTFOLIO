@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+// Move this outside the component to make it a static reference
+const textArray = ["Web Developer..!"];
 
 const TypingEffect = () => {
-  const textArray = ["Web Developer..!"];
   const [index, setIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -28,7 +28,7 @@ const TypingEffect = () => {
 
     const typingTimer = setTimeout(handleTyping, typingSpeed);
     return () => clearTimeout(typingTimer);
-  }, [charIndex, isDeleting, index, textArray]);
+  }, [charIndex, isDeleting, index]); // Removed textArray from here
 
   return <span className="typing-text text-info">{text}</span>;
 };
