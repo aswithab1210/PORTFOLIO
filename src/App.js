@@ -218,7 +218,7 @@ const App = () => {
 
       {/* Contact Info + Social Media */}
       <div className="col-md-6">
-        <div className="p-4 bg-white shadow rounded h-100" style={{ backgroundColor: "#f8f9fa" }}>
+        <div className="p-4 bg-white shadow rounded h-100 d-flex flex-column justify-content-center" style={{ backgroundColor: "#f8f9fa" }}>
           <h4 className="fw-bold mb-3">Contact Information</h4>
           <ul className="list-unstyled text-muted">
             <li className="mb-3">
