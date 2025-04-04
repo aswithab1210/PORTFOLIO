@@ -17,12 +17,6 @@ const App = () => {
                       <h1>SAI ASWITHA BATTULA</h1>
                       <h3>And I'm a <TypingEffect/> </h3>
                       <p>As a fresher with a certificate in java full stack development I am seeking a job to enhance my career growth and contribute to the organizations success. </p>
-                      <div class="d-flex gap-3">
-                          <a href="#" class="text-white fs-4"><i class="fab fa-facebook"></i></a>
-                          <a href="#" class="text-white fs-4"><i class="fab fa-twitter"></i></a>
-                          <a href="#" class="text-white fs-4"><i class="fab fa-instagram"></i></a>
-                          <a href="#" class="text-white fs-4"><i class="fab fa-linkedin"></i></a>
-                      </div>
                       <a href="/SAI_ASWITHA_RESUME.pdf" download class="btn btn-info text-black mt-3 text-white">Download My Resume</a>
                   </div>
               </div>
