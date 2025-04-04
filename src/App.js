@@ -189,57 +189,71 @@ const App = () => {
 
       <Element name="contact me" className="bg-white p-5">
       <section id="contact" className="py-5">
-      <div className="container">
-        <h2 className="text-center text-info fw-bold mb-5">Let's Connect</h2>
-        <div className="row g-5 align-items-center">
-          
-          {/* Contact Form */}
-          <div className="col-md-6">
-            <div className="p-4 bg-white shadow rounded" style={{ backgroundColor: "#f8f9fa" }}>
-              <form>
-                <div className="mb-3">
-                  <label htmlFor="name" className="form-label fw-semibold">Your Name</label>
-                  <input type="text" className="form-control" id="name" placeholder="John Doe" required />
-                </div>
-                <div className="mb-3">
-                  <label htmlFor="email" className="form-label fw-semibold">Your Email</label>
-                  <input type="email" className="form-control" id="email" placeholder="you@example.com" required />
-                </div>
-                <div className="mb-3">
-                  <label htmlFor="message" className="form-label fw-semibold">Message</label>
-                  <textarea className="form-control" id="message" rows="5" placeholder="Write your message..." required></textarea>
-                </div>
-                <div className="d-grid">
-                  <button type="submit" className="btn btn-info text-white fw-semibold py-2">Send Message</button>
-                </div>
-              </form>
+  <div className="container">
+    <h2 className="text-center text-info fw-bold mb-5">Let's Connect</h2>
+    <div className="row g-5 align-items-stretch">
+      
+      {/* Contact Form */}
+      <div className="col-md-6">
+        <div className="p-4 bg-white shadow rounded h-100" style={{ backgroundColor: "#f8f9fa" }}>
+          <form>
+            <div className="mb-3">
+              <label htmlFor="name" className="form-label fw-semibold">Your Name</label>
+              <input type="text" className="form-control" id="name" placeholder="John Doe" required />
             </div>
-          </div>
-
-          {/* Contact Info + Social Media */}
-          {/* Contact Info + Social Media */}
-<div className="col-md-6">
-  <div className="p-4 bg-white shadow rounded" style={{ backgroundColor: "#f8f9fa" }}>
-    <h4 className="fw-bold mb-3">Contact Information</h4>
-    <ul className="list-unstyled text-muted">
-      <li className="mb-3"><i className="fas fa-envelope text-info me-2"></i> aswithakousi@gmail.com</li>
-      <li className="mb-3"><i className="fas fa-phone text-info me-2"></i> +91 97050 54848</li>
-      <li className="mb-3"><i className="fas fa-map-marker-alt text-info me-2"></i> Hyderabad, Telangana - 500062</li>
-    </ul>
-
-    <h5 className="fw-semibold mt-4">Find me on</h5>
-    <div className="d-flex gap-3 fs-4 mt-2">
-      <a href="https://linkedin.com/in/sai-aswitha-battula" target="_blank" rel="noopener noreferrer" className="text-info"><i className="fab fa-linkedin"></i></a>
-      <a href="https://github.com/aswithab1210" target="_blank" rel="noopener noreferrer" className="text-dark"><i className="fab fa-github"></i></a>
-      <a href="https://x.com/" target="_blank" rel="noopener noreferrer" className="text-primary"><i className="fab fa-twitter"></i></a>
-      <a href="mailto:aswithakousi@gmail.com" target="_blank" rel="noopener noreferrer" className="text-danger"><i className="fas fa-envelope"></i></a>
-    </div>
-  </div>
-</div>
-
+            <div className="mb-3">
+              <label htmlFor="email" className="form-label fw-semibold">Your Email</label>
+              <input type="email" className="form-control" id="email" placeholder="you@example.com" required />
+            </div>
+            <div className="mb-3">
+              <label htmlFor="message" className="form-label fw-semibold">Message</label>
+              <textarea className="form-control" id="message" rows="5" placeholder="Write your message..." required></textarea>
+            </div>
+            <div className="d-grid">
+              <button type="submit" className="btn btn-info text-white fw-semibold py-2">Send Message</button>
+            </div>
+          </form>
         </div>
       </div>
-    </section>
+
+      {/* Contact Info + Social Media */}
+      <div className="col-md-6">
+        <div className="p-4 bg-white shadow rounded h-100" style={{ backgroundColor: "#f8f9fa" }}>
+          <h4 className="fw-bold mb-3">Contact Information</h4>
+          <ul className="list-unstyled text-muted">
+            <li className="mb-3">
+              <i className="fas fa-envelope text-info me-2"></i> aswithakousi@gmail.com
+            </li>
+            <li className="mb-3">
+              <i className="fas fa-phone text-info me-2"></i> +91 97050 54848
+            </li>
+            <li className="mb-3">
+              <i className="fas fa-map-marker-alt text-info me-2"></i> Hyderabad, Telangana - 500062
+            </li>
+          </ul>
+
+          <h5 className="fw-semibold mt-4">Find me on</h5>
+          <div className="d-flex gap-3 fs-4 mt-2">
+            <a href="https://linkedin.com/in/sai-aswitha-battula" target="_blank" rel="noopener noreferrer" className="text-info">
+              <i className="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/aswithab1210" target="_blank" rel="noopener noreferrer" className="text-dark">
+              <i className="fab fa-github"></i>
+            </a>
+            <a href="https://x.com/" target="_blank" rel="noopener noreferrer" className="text-primary">
+              <i className="fab fa-twitter"></i>
+            </a>
+            <a href="mailto:aswithakousi@gmail.com" target="_blank" rel="noopener noreferrer" className="text-danger">
+              <i className="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
       </Element>
       <Element className="bg-white">
       <footer class="bg-dark text-light py-4 mt-5 shadow-lg rounded-top">
