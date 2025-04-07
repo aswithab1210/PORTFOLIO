@@ -16,7 +16,7 @@ const App = () => {
                       <h2>Hello, It's Me</h2>
                       <h1>SAI ASWITHA BATTULA</h1>
                       <h3>And I'm a <TypingEffect/> </h3>
-                      <p>As a fresher with a certificate in java full stack development I am seeking a job to enhance my career growth and contribute to the organizations success. </p>
+                      <p>Computer Science graduate with a Java Full Stack Development certification, aiming to grow professionally while exploring business management to drive innovative, data-driven solutions.</p>
                       <a href="/SAI_ASWITHA_RESUME.pdf" download class="btn btn-info text-black mt-3 text-white">Download My Resume</a>
                   </div>
               </div>
@@ -33,16 +33,18 @@ const App = () => {
 
               </p>
               <p>
-                I'm <strong>Sai Aswitha Battula</strong>, a passionate and hardworking fresher with a Bachelor's degree in Computer Science and Engineering. I hold certifications in Java Full Stack Development and Web Development from Tech Mahindra SMART Academy and SmartKnower respectively.
+                I'm <strong>Sai Aswitha Battula</strong>, a passionate and hardworking fresher with a Bachelor's degree in Computer Science and Engineering. I hold certifications in Java Full Stack Development and Web Development from Tech Mahindra SMART Academy and SmartKnower, respectively.
+              <p>
+                Skilled in HTML, CSS, JavaScript, Bootstrap, React.js, and Java, I enjoy building user-friendly interfaces and exploring new technologies. My strengths include leadership, communication, and teamwork—qualities essential not just in tech, but in business as well.
               </p>
               <p>
-                I am skilled in technologies like <strong>HTML, CSS, JavaScript, Bootstrap, React.js, and Java</strong>. I enjoy building user-friendly interfaces and learning new web technologies. My strengths include leadership, communication, and teamwork.
+                 I’ve worked on projects like <em>Stroke Risk Prediction using Machine Learning</em> and <em>Smartphone App Usage Analysis</em>, and have completed internships in both web development and machine learning—giving me a foundation in both data-driven development and user-centric design.
               </p>
               <p>
-                I’ve worked on projects like <em>Stroke Risk Prediction using Machine Learning</em> and <em>Smartphone App Usage Analysis</em>, and I have completed internships in web development and machine learning.
+               As I transition into business management through an MBA, I aim to combine my technical background with strategic thinking to create innovative, data-driven solutions. This journey reflects my passion for continuous learning and real-world problem-solving.
               </p>
               <p>
-                In my free time, I enjoy listening to music and reading books. I'm excited to kick-start my career and contribute to innovative web solutions.
+               Outside of academics, I enjoy listening to music and reading books. I'm excited to kick-start a career that blends technology, creativity, and business insight.
               </p>
             </div>
             <div class="col-md-6 text-center">
