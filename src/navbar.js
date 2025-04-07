@@ -17,6 +17,15 @@ const Navbar = () => {
     window.addEventListener("scroll", changeNavColor);
     return () => window.removeEventListener("scroll", changeNavColor);
   }, []);
+    const handleNavItemClick = () => {
+      const navCollapse = document.getElementById("navbarNav");
+      if (navCollapse && navCollapse.classList.contains("show")) {
+        const bsCollapse = new window.bootstrap.Collapse(navCollapse, {
+          toggle: true,
+        });
+        bsCollapse.hide();
+      }
+    };
 
   return (
     <nav
