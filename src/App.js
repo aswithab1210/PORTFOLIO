@@ -24,7 +24,7 @@ const App = () => {
         </div>
       </Element>
 
-      <Element name="about me" className="p-5 bg-white">
+      <Element name="about me" className="p-2 bg-white">
         <section class="container my-5" id="about">
           <div class="row align-items-center">
             <div class="col-md-6">
@@ -56,7 +56,7 @@ const App = () => {
 
       
 
-      <Element name="skills" className="bg-white p-5">
+      <Element name="skills" className="bg-white p-2">
         <section class="container my-5 skills-section">
           <h2 class="text-info">My Skill Set</h2>
           <div class="row g-4">
@@ -120,7 +120,7 @@ const App = () => {
 
 
       {/* this is projects section */}
-      <Element name="projects" className="bg-white p-5">
+      <Element name="projects" className="bg-white p-2">
         <section id="projects" class="container my-5 skills-section">
           <h2 class="text-info">My Projects</h2>
           <div class="row g-4">
@@ -128,7 +128,7 @@ const App = () => {
             {/* <!-- Project 1 --> */}
             <div class="col-md-6 col-lg-4">
               <div class="card h-100 shadow-sm border-0">
-                <img src="/project_1.png" class="card-img-top" alt="Project 1" style={{objectFit: 'cover', height: '200px', width: '100%' }} ></img>
+                <img src="/project_1.png" class="card-img-top" alt="Project 1"></img>
                 <div class="card-body d-flex flex-column">
                   <h5 class="card-title text-info">Portfolio Website</h5>
                   <p class="card-text flex-grow-1">A responsive personal portfolio website built using HTML, CSS, Bootstrap, JavaScript, and ReactJs.</p>
@@ -188,7 +188,7 @@ const App = () => {
         </section>
       </Element>
 
-      <Element name="contact me" className="bg-white p-5">
+      <Element name="contact me" className="bg-white p-2">
       <section id="contact" className="py-5">
   <div className="container">
     <h2 className="text-center text-info fw-bold mb-5">Let's Connect</h2>
