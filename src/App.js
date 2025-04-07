@@ -30,9 +30,6 @@ const App = () => {
             <div class="col-md-6">
               <h2 class="text-info">About Me</h2>
               <p>
-
-              </p>
-              <p>
                 I'm <strong>Sai Aswitha Battula</strong>, a passionate and hardworking fresher with a Bachelor's degree in Computer Science and Engineering. I hold certifications in Java Full Stack Development and Web Development from Tech Mahindra SMART Academy and SmartKnower, respectively.
               <p>
                 Skilled in HTML, CSS, JavaScript, Bootstrap, React.js, and Java, I enjoy building user-friendly interfaces and exploring new technologies. My strengths include leadership, communication, and teamwork—qualities essential not just in tech, but in business as well.
