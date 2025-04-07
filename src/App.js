@@ -29,20 +29,22 @@ const App = () => {
           <div class="row align-items-center">
             <div class="col-md-6">
               <h2 class="text-info">About Me</h2>
-              <p>
-                I'm <strong>Sai Aswitha Battula</strong>, a passionate and hardworking fresher with a Bachelor's degree in Computer Science and Engineering. I hold certifications in Java Full Stack Development and Web Development from Tech Mahindra SMART Academy and SmartKnower, respectively.
-              <p>
-                Skilled in HTML, CSS, JavaScript, Bootstrap, React.js, and Java, I enjoy building user-friendly interfaces and exploring new technologies. My strengths include leadership, communication, and teamwork—qualities essential not just in tech, but in business as well.
-              </p>
-              <p>
-                 I’ve worked on projects like <em>Stroke Risk Prediction using Machine Learning</em> and <em>Smartphone App Usage Analysis</em>, and have completed internships in both web development and machine learning—giving me a foundation in both data-driven development and user-centric design.
-              </p>
-              <p>
-               As I transition into business management through an MBA, I aim to combine my technical background with strategic thinking to create innovative, data-driven solutions. This journey reflects my passion for continuous learning and real-world problem-solving.
-              </p>
-              <p>
-               Outside of academics, I enjoy listening to music and reading books. I'm excited to kick-start a career that blends technology, creativity, and business insight.
-              </p>
+                <p>
+                  I'm <strong>Sai Aswitha Battula</strong>, a passionate and hardworking fresher with a Bachelor's degree in Computer Science and Engineering. I hold certifications in Java Full Stack Development and Web Development from Tech Mahindra SMART Academy and SmartKnower, respectively.
+                </p>
+                <p>
+                  Skilled in HTML, CSS, JavaScript, Bootstrap, React.js, and Java, I enjoy building user-friendly interfaces and exploring new technologies. My strengths include leadership, communication, and teamwork—qualities essential not just in tech, but in business as well.
+                </p>
+                <p>
+                   I’ve worked on projects like <em>Stroke Risk Prediction using Machine Learning</em> and <em>Smartphone App Usage Analysis</em>, and have completed internships in both web development and machine learning—giving me a foundation in both data-driven development and user-centric design.
+                </p>
+                <p>
+                 As I transition into business management through an MBA, I aim to combine my technical background with strategic thinking to create innovative, data-driven solutions. This journey reflects my passion for continuous learning and real-world problem-solving.
+                </p>
+                <p>
+                 Outside of academics, I enjoy listening to music and reading books. I'm excited to kick-start a career that blends technology, creativity, and business insight.
+                </p>
+    
             </div>
             <div class="col-md-6 text-center">
               <img src="https://t4.ftcdn.net/jpg/02/24/86/95/360_F_224869519_aRaeLneqALfPNBzg0xxMZXghtvBXkfIA.jpg" alt="Sai Aswitha" class="img-fluid rounded shadow" width="300"></img>
