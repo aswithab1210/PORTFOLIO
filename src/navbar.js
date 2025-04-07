@@ -46,9 +46,17 @@ const Navbar = () => {
           <ul className="navbar-nav ms-auto">
             {["home", "about me", "skills", "projects", "contact me"].map((section) => (
               <li className="nav-item" key={section}>
-                <Link className="nav-link" to={section} smooth={true} duration={500} role="button">
+                <Link
+                  className="nav-link"
+                  to={section}
+                  smooth={true}
+                  duration={500}
+                  role="button"
+                  onClick={handleNavItemClick}
+                >
                   {section.charAt(0).toUpperCase() + section.slice(1)}
                 </Link>
+
               </li>
             ))}
           </ul>
