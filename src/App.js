@@ -62,13 +62,13 @@ const App = () => {
           <div class="row g-4">
             <div class="col-md-6 col-lg-4">
               <div class="skill-card">
-                <img src="https://www.dropbox.com/s/7c8k7fe3y8woqx8/html.png?raw=1" class="skill-img" alt="HTML"></img>
+                <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" class="skill-img" alt="HTML"></img>
                 <h5 >HTML</h5>
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="skill-card">
-                <img src="https://www.dropbox.com/s/xmirhrh5hv7ai1g/css.png?raw=1" class="skill-img" alt="CSS"></img>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" class="skill-img" alt="CSS"></img>
                 <h5>CSS</h5>
               </div>
             </div>
@@ -86,7 +86,7 @@ const App = () => {
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="skill-card">
-                <img src="https://www.dropbox.com/s/bmvkp30qjs8l2a2/postgres.jpg?raw=1" class="skill-img" alt="MySQL"></img>
+                <img src="https://img.icons8.com/?size=512&id=9nLaR5KFGjN0&format=png" class="skill-img" alt="MySQL"></img>
                 <h5>MySQL</h5>
               </div>
             </div>
@@ -106,6 +106,12 @@ const App = () => {
               <div class="skill-card">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" class="skill-img" alt="MySQL"></img>
                 <h5>Visual Studio Code</h5>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="skill-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png" class="skill-img" alt="MySQL"></img>
+                <h5>Bootstrap</h5>
               </div>
             </div>
           </div>
