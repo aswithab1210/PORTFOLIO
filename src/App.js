@@ -128,7 +128,7 @@ const App = () => {
             {/* <!-- Project 1 --> */}
             <div class="col-md-6 col-lg-4">
               <div class="card h-100 shadow-sm border-0">
-                <img src="/project_1.png" class="card-img-top" alt="Project 1"></img>
+                <img src="/project_1.png" class="card-img-top" alt="Project 1" style="object-fit: cover; height: 200px;"></img>
                 <div class="card-body d-flex flex-column">
                   <h5 class="card-title text-info">Portfolio Website</h5>
                   <p class="card-text flex-grow-1">A responsive personal portfolio website built using HTML, CSS, Bootstrap, JavaScript, and ReactJs.</p>
