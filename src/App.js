@@ -104,7 +104,7 @@ const App = () => {
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="skill-card">
-                <img src="https://w7.pngwing.com/pngs/512/824/png-transparent-visual-studio-code-hd-logo-thumbnail.png" class="skill-img" alt="MySQL"></img>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" class="skill-img" alt="MySQL"></img>
                 <h5>Visual Studio Code</h5>
               </div>
             </div>
