@@ -24,7 +24,7 @@ const App = () => {
         </div>
       </Element>
 
-      <Element name="about me" className="p-2 bg-white">
+      <Element name="about me" className="p-3 bg-white">
         <section class="container my-5" id="about">
           <div class="row align-items-center">
             <div class="col-md-6">
@@ -56,7 +56,7 @@ const App = () => {
 
       
 
-      <Element name="skills" className="bg-white p-2">
+      <Element name="skills" className="bg-white p-3">
         <section class="container my-5 skills-section">
           <h2 class="text-info">My Skill Set</h2>
           <div class="row g-4">
@@ -120,7 +120,7 @@ const App = () => {
 
 
       {/* this is projects section */}
-      <Element name="projects" className="bg-white p-2">
+      <Element name="projects" className="bg-white p-3">
         <section id="projects" class="container my-5 skills-section">
           <h2 class="text-info">My Projects</h2>
           <div class="row g-4">
@@ -188,7 +188,7 @@ const App = () => {
         </section>
       </Element>
 
-      <Element name="contact me" className="bg-white p-2">
+      <Element name="contact me" className="bg-white p-3">
       <section id="contact" className="py-5">
   <div className="container">
     <h2 className="text-center text-info fw-bold mb-5">Let's Connect</h2>
