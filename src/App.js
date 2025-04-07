@@ -98,20 +98,14 @@ const App = () => {
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="skill-card">
-                <img src="https://www.dropbox.com/s/3kinvupgu341kfh/react.png?raw=1" class="skill-img" alt="Java"></img>
-                <h5>ReactJs</h5>
+                <img src="https://static-00.iconduck.com/assets.00/java-icon-1511x2048-6ikx8301.png" class="skill-img" alt="Java"></img>
+                <h5>Java</h5>
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="skill-card">
-                <img src="https://www.dropbox.com/s/bmvkp30qjs8l2a2/postgres.jpg?raw=1" class="skill-img" alt="MySQL"></img>
-                <h5>MySQL</h5>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-              <div class="skill-card">
-                <img src="https://www.dropbox.com/s/ztynnrd60tycwgi/git.png?raw=1" class="skill-img" alt="Bootstrap"></img>
-                <h5>Git</h5>
+                <img src="https://w7.pngwing.com/pngs/512/824/png-transparent-visual-studio-code-hd-logo-thumbnail.png" class="skill-img" alt="MySQL"></img>
+                <h5>Visual Studio Code</h5>
               </div>
             </div>
           </div>
