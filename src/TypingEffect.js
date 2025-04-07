@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 // Move this outside the component to make it a static reference
-const textArray = ["Web Developer..!";"CSE Graduate..!";"a Curious Mind..!"];
+const textArray = ["Web Developer..!","CSE Graduate..!","a Curious Mind..!"];
 
 const TypingEffect = () => {
   const [index, setIndex] = useState(0);
