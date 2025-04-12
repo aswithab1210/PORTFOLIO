@@ -184,6 +184,18 @@ const App = () => {
               </div>
             </div>
 
+            {/* <!-- Project 6 --> */}
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 shadow-sm border-0">
+                <img src="/project_6.png" class="card-img-top" alt="Project 1"></img>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title text-info">BMI Calculator</h5>
+                  <p class="card-text flex-grow-1">The BMI Calculator is built using React, allowing for unit toggling, history storage, charts, and a dark/light mode UI.</p>
+                  <a href="https://sip-calculator1210.netlify.app/" target="_blank" rel="noreferrer" class="btn btn-outline-info mt-auto">View Project</a>
+                </div>
+              </div>
+            </div>
+
           </div>
         </section>
       </Element>
