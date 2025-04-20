@@ -196,6 +196,18 @@ const App = () => {
               </div>
             </div>
 
+            {/* <!-- Project 7 --> */}
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 shadow-sm border-0">
+                <img src="/project_7.png" class="card-img-top" alt="Project 1"></img>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title text-info">Memory Scrapbook</h5>
+                  <p class="card-text flex-grow-1">Built with React.js, Tailwind CSS, Bootstrap, MongoDB Atlas, and Netlify Functions — combining modern frontend design with a cloud-powered serverless backend.</p>
+                  <a href="https://savememory-scrapbook.netlify.app/" target="_blank" rel="noreferrer" class="btn btn-outline-info mt-auto">View Project</a>
+                </div>
+              </div>
+            </div>
+
           </div>
         </section>
       </Element>
