@@ -86,7 +86,9 @@ const ContactForm = () => {
               required
             ></textarea>
           </div>
-          <button type="submit" className="btn btn-info text-black">Send Message</button>
+          <div className="d-grid">
+              <button type="submit" className="btn btn-info text-white fw-semibold py-2">Send Message</button>
+          </div>
         </form>
         {status && <p>{status}</p>}
           
