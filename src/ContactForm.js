@@ -47,46 +47,52 @@ const ContactForm = () => {
   };
 
   return (
-    <section id="contact" className="container my-5">
-      <h2 className="text-info">Contact Me</h2>
-      <p>If you'd like to work with me, feel free to get in touch!</p>
-      <form onSubmit={handleSubmit}>
-        <div className="mb-3">
-          <input
-            type="text"
-            className="form-control"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
-            placeholder="Your Name"
-            required
-          />
-        </div>
-        <div className="mb-3">
-          <input
-            type="email"
-            className="form-control"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            placeholder="Your Email"
-            required
-          />
-        </div>
-        <div className="mb-3">
-          <textarea
-            className="form-control"
-            name="message"
-            value={formData.message}
-            onChange={handleChange}
-            placeholder="Your Message"
-            rows="4"
-            required
-          ></textarea>
-        </div>
-        <button type="submit" className="btn btn-info text-black">Send Message</button>
-      </form>
-      {status && <p>{status}</p>}
+    <section id="contact" className="col-md-6">
+      <div className="p-4 bg-white shadow rounded h-100" style={{ backgroundColor: "#f8f9fa" }}>
+        <h2 className="text-info">Contact Me</h2>
+        <p>If you'd like to work with me, feel free to get in touch!</p>
+        <form onSubmit={handleSubmit}>
+          <div className="mb-3">
+            <label htmlFor="name" className="form-label fw-semibold">Your Name</label>
+            <input
+              type="text"
+              className="form-control"
+              name="name"
+              value={formData.name}
+              onChange={handleChange}
+              placeholder="Your Name"
+              required
+            />
+          </div>
+          <div className="mb-3">
+            <label htmlFor="email" className="form-label fw-semibold">Your Email</label>
+            <input
+              type="email"
+              className="form-control"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div className="mb-3">
+            <label htmlFor="message" className="form-label fw-semibold">Message</label>
+            <textarea
+              className="form-control"
+              name="message"
+              value={formData.message}
+              onChange={handleChange}
+              placeholder="Your Message"
+              rows="4"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" className="btn btn-info text-black">Send Message</button>
+        </form>
+        {status && <p>{status}</p>}
+          
+      </div>      
     </section>
   );
 };
