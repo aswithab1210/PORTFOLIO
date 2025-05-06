@@ -216,8 +216,8 @@ const App = () => {
       <Element name="contact me" className="bg-white p-3">
       <section id="contact" className="py-5">
   <div className="container">
-    <h2 className="text-center text-info fw-bold mb-5">Let's Connect</h2>
-    <p className="text-center fw-bold">If you'd like to work with me, feel free to get in touch!</p>
+    <h2 className="text-center text-info fw-bold mb-2">Let's Connect</h2>
+    <p className="text-center fw-bold mb-5">If you'd like to work with me, feel free to get in touch!</p>
     <div className="row g-5 align-items-stretch">
       
       {/* Contact Form */}
@@ -262,8 +262,6 @@ const App = () => {
 </section>
 
       </Element>
-
-        <ContactForm/>
         
       <Element className="bg-white">
       <footer class="bg-dark text-light py-4 mt-5 shadow-lg rounded-top">
