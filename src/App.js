@@ -2,6 +2,7 @@ import React from "react";
 import { Element } from "react-scroll";
 import Navbar from "./navbar";
 import TypingEffect from "./TypingEffect";
+import ContactForm from "./ContactForm";
 
 const App = () => {
   return (
@@ -280,6 +281,9 @@ const App = () => {
 </section>
 
       </Element>
+
+        <ContactForm/>
+        
       <Element className="bg-white">
       <footer class="bg-dark text-light py-4 mt-5 shadow-lg rounded-top">
         <div class="container text-center">
