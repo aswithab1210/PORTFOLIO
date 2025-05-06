@@ -217,6 +217,7 @@ const App = () => {
       <section id="contact" className="py-5">
   <div className="container">
     <h2 className="text-center text-info fw-bold mb-5">Let's Connect</h2>
+    <p className="text-center fw-bold">If you'd like to work with me, feel free to get in touch!</p>
     <div className="row g-5 align-items-stretch">
       
       {/* Contact Form */}
