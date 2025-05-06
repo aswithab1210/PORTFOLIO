@@ -25,7 +25,7 @@ const ContactForm = () => {
     }
 
     // Modify the Formspree URL if necessary
-    const response = await fetch('https://formspree.io/f/mayzgwky', {  // Replace this with your correct Form ID
+    const response = await fetch('https://formspree.io/f/xanookzk', {  // Replace this with your correct Form ID
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
