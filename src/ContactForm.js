@@ -49,8 +49,6 @@ const ContactForm = () => {
   return (
     <section id="contact" className="col-md-6">
       <div className="p-4 bg-white shadow rounded h-100" style={{ backgroundColor: "#f8f9fa" }}>
-        <h2 className="text-info">Contact Me</h2>
-        <p>If you'd like to work with me, feel free to get in touch!</p>
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
             <label htmlFor="name" className="form-label fw-semibold">Your Name</label>
@@ -60,7 +58,7 @@ const ContactForm = () => {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              placeholder="Your Name"
+              placeholder="John Doe"
               required
             />
           </div>
@@ -72,7 +70,7 @@ const ContactForm = () => {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              placeholder="Your Email"
+              placeholder="you@example.com"
               required
             />
           </div>
@@ -83,8 +81,8 @@ const ContactForm = () => {
               name="message"
               value={formData.message}
               onChange={handleChange}
-              placeholder="Your Message"
-              rows="4"
+              placeholder="Write your message..."
+              rows="5"
               required
             ></textarea>
           </div>
