@@ -47,7 +47,7 @@ const ContactForm = () => {
   };
 
   return (
-    <section id="contact" className="col-md-6">
+    <div id="contact" className="col-md-6">
       <div className="p-4 bg-white shadow rounded h-100" style={{ backgroundColor: "#f8f9fa" }}>
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
@@ -93,7 +93,7 @@ const ContactForm = () => {
         {status && <p>{status}</p>}
           
       </div>      
-    </section>
+    </div>
   );
 };
 
