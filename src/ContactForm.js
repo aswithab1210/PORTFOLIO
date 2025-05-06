@@ -24,7 +24,8 @@ const ContactForm = () => {
       return;
     }
 
-    const response = await fetch('https://formspree.io/f/xyylqjbb', {
+    // Modify the Formspree URL if necessary
+    const response = await fetch('https://formspree.io/f/mayzgwky', { // example form ID
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -40,7 +41,7 @@ const ContactForm = () => {
         message: '',
       });
     } else {
-      setStatus('Something went wrong, please try again.');
+      setStatus('Something went wrong. Please try again.');
     }
   };
 
