@@ -221,27 +221,7 @@ const App = () => {
     <div className="row g-5 align-items-stretch">
       
       {/* Contact Form */}
-      <div className="col-md-6">
-        <div className="p-4 bg-white shadow rounded h-100" style={{ backgroundColor: "#f8f9fa" }}>
-          <form action="https://formspree.io/f/xanookzk" method="POST">
-            <div className="mb-3">
-              <label htmlFor="name" className="form-label fw-semibold">Your Name</label>
-              <input type="text" className="form-control" id="name" placeholder="John Doe" required />
-            </div>
-            <div className="mb-3">
-              <label htmlFor="email" className="form-label fw-semibold">Your Email</label>
-              <input type="email" className="form-control" id="email" placeholder="you@example.com" required />
-            </div>
-            <div className="mb-3">
-              <label htmlFor="message" className="form-label fw-semibold">Message</label>
-              <textarea className="form-control" id="message" rows="5" placeholder="Write your message..." required></textarea>
-            </div>
-            <div className="d-grid">
-              <button type="submit" className="btn btn-info text-white fw-semibold py-2">Send Message</button>
-            </div>
-          </form>
-        </div>
-      </div>
+      <ContactForm/>
 
       {/* Contact Info + Social Media */}
       <div className="col-md-6">
