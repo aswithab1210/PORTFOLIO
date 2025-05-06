@@ -221,7 +221,7 @@ const App = () => {
       {/* Contact Form */}
       <div className="col-md-6">
         <div className="p-4 bg-white shadow rounded h-100" style={{ backgroundColor: "#f8f9fa" }}>
-          <form>
+          <form action="https://formspree.io/f/xanookzk" method="POST">
             <div className="mb-3">
               <label htmlFor="name" className="form-label fw-semibold">Your Name</label>
               <input type="text" className="form-control" id="name" placeholder="John Doe" required />
